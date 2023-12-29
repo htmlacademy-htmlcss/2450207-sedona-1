@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Неопознанный енот](https://up.htmlacademy.ru/htmlcss-individual/1/user/2450207).
-* Наставник: `Неизвестно`.
+* Студент: [Евгения Орлова](https://up.htmlacademy.ru/htmlcss-individual/1/user/2450207).
+* Наставник: `Оксана Вайнруб`.
 
 ---
 
