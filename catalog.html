@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
 
@@ -14,13 +15,13 @@
         </p>
         <ul class="site-navigation">
           <li class="site-navigation-item">
-            <a href="index.html">Главная</a>
+            <a class="site-navigation-item" href="index.html">Главная</a>
             </li>
             <li class="site-navigation-item">
-              <a href="#">О Седоне</a>
+              <a class="site-navigation-item" href="#">О Седоне</a>
               </li>
             <li class="site-navigation-item">
-              <a href="#">Гостиницы</a>
+              <a class="site-navigation-item" href="index.html">Гостиницы</a>
               </li>
               </ul>
               <ul class="navigation-list-navigation-user">
@@ -42,15 +43,15 @@
       </header>
       <main>
         <section class="hotels">
-
-          <h1>Гостиницы Седоны</h1>
+          <img src="images/filter.png" width="1200" height="412" alt="Blurry photo">
+          <h1 class="hotel-header">Гостиницы Седоны</h1>
           <p class="icon">
             <img src="images/icon-home.svg" width="12" height="12" alt="home">
           </p>
           <p class="icon">
             <img src="images/breadcrumbs.png" width="6,39" height="9,94" alt="breadcrumbs">
           </p>
-          <p>Гостиницы</p>
+          <p class="crumbs"> Гостиницы</p>
 
           <form action="https://echo.htmlacademy.ru/" method="get">
             <fieldset class="catalog-filter-group">
@@ -108,7 +109,7 @@
                 </li>
               </ul>
             </fieldset>
-            <p>Стоимость, ₽:</p>
+            <p class="catalog-filter-title ">Стоимость, ₽:</p>
             <form class="price" action="https://echo.htmlacademy.ru/" method="post">
               <p class="form-price">
               <input type="text" id="price" name="price" placeholder="0    от">
@@ -146,8 +147,8 @@
               <img class="hotels-card-image" src="images/amara-resort.jpg" width="300" height="212" alt="Гостиница amara resort & spa фото гор и звездного неба">
               <h3 class="hotels-card-title">Amara Resort & Spa</h3>
             </a>
-            <p>Гостиница</p>
-            <p>от 4000 ₽</p>
+            <p class="hotel-card">Гостиница</p>
+            <p class="hotel-card">от 4000 ₽</p>
             <a class="hotels-card-button" href="#">Подробнее</a>
             <a class="hotels-card-button" href="#">В избранное</a>
             <img src="images/star.png" width="18" height="17" alt="star">
@@ -161,8 +162,8 @@
               <img class="hotels-card-image" src="images/villas-diablo.jpg" width="300" height="212" alt="Гостиница Villas at poco diablo фото каньона и радуги">
               <h3 class="hotels-card-title">Villas at Poco Diablo</h3>
             </a>
-            <p>Гостиница</p>
-            <p>от 5000 ₽</p>
+            <p class="hotel-card">Гостиница</p>
+            <p class="hotel-card">от 5000 ₽</p>
             <a class="hotels-card-button" href="#">Подробнее</a>
             <a class="hotels-card-button" href="#">В избранном</a>
             <img src="images/star.png" width="18" height="17" alt="star">
@@ -176,8 +177,8 @@
               <img class="hotels-card-image" src="images/desert-inn.jpg" width="300" height="212" alt="Гостиница desert quail inn фото каньона днем">
               <h3 class="hotels-card-title">Desert Quail Inn</h3>
             </a>
-            <p>Гостиница</p>
-            <p>от 2500 ₽</p>
+            <p class="hotel-card">Гостиница</p>
+            <p class="hotel-card">от 2500 ₽</p>
             <a class="hotels-card-button" href="#">Подробнее</a>
             <a class="hotels-card-button" href="#">В избранное</a>
             <img src="images/star.png" width="18" height="17" alt="star">
@@ -190,8 +191,8 @@
               <img class="hotels-card-image" src="images/greentree.jpg" width="300" height="212" alt="Гостиница greentree inn фото каньона и звездного неба">
               <h3 class="hotels-card-title">GreenTree Inn</h3>
             </a>
-            <p>Гостиница</p>
-            <p>от 1500 ₽</p>
+            <p class="hotel-card">Гостиница</p>
+            <p class="hotel-card">от 1500 ₽</p>
             <a class="hotels-card-button" href="#">Подробнее</a>
             <a class="hotels-card-button" href="#">В избранное</a>
             <img src="images/star.png" width="18" height="17" alt="star">
@@ -221,7 +222,7 @@
           </ul>
         </section>
         <section class="subscribe">
-        <h3>Подпишитесь на рассылку</h3>
+        <h3 class="hotels-found ">Подпишитесь на рассылку</h3>
         <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="newsletter-form" action="#" method="post">
           <label for="newsletter-email"></label>
