@@ -62,8 +62,11 @@ body {
   }
 
   .information {
+
+    width: 230px;
     margin: 0;
-    padding: 0;
+    padding: 103px 85px;
+    background-color: #82B3D3;
   }
 
   .recommendations {
@@ -93,9 +96,8 @@ body {
   }
 
   .real-town {
-    display: flex;
+
     width: 175px;
-    padding: 102px 85px;
     color: #FFFFFF;
     background-color: #82B3D3;
     font-weight: 700;
@@ -106,8 +108,7 @@ body {
   }
 
   .town {
-    display: flex;
-    padding: 102px 85px;
+
     width: 230px;
     color: #FFFFFF;
     background-color: #82B3D3;
@@ -161,6 +162,14 @@ body {
 .advantages-list {
   width: 230px;
   padding: 103px 85px;
+  list-style-type: none;
+}
+
+.bridge {
+  width: 230px;
+  margin: 0;
+  padding: 102px 85px;
+  background-color: #82B3D3;
 }
 
 .dates {
