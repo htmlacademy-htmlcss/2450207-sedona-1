@@ -116,11 +116,24 @@ body {
   line-height: 21px;
   }
 
+  .attractive {
+    font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  width: 620px;
+  text-align: center;
+  margin: auto;
+  }
+
   .invitation {
     font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+  width: 505px;
+  text-align: center;
+  margin: auto;
  }
 
 .advantage-list {
@@ -137,12 +150,23 @@ body {
 }
 
 .advantage {
-  width: 230px;
+
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  padding: 103px 85px;
+  list-style-type: none;
   align-items: center;
+}
+
+.advantages-list {
+  width: 230px;
+  padding: 103px 85px;
+}
+
+.dates {
+  width: 592px;
+  text-align: center;
+  margin: auto;
 }
 
 .subscribe {
@@ -158,6 +182,16 @@ body {
   line-height: 36px;
   color: #FFFFFF;
   text-transform: uppercase;
+  width: 404px;
+  text-align: center;
+  margin: auto;
+}
+
+.sub-information {
+width: 475px;
+color: #FFFFFF;
+text-align: center;
+  margin: auto;
 }
 
 .want-here {
@@ -201,6 +235,8 @@ body {
   font-size: 16px;
   line-height: 20px;
   color: #FFFFFF;
+  background-color: #82B3D3;
+  text-transform: uppercase;
 }
 
 .hotels-found {
@@ -277,6 +313,8 @@ body {
 
 .contacts-phone {
   width: 720px;
+  color: #000;
+  text-decoration: none;
 }
 
 .logo {
