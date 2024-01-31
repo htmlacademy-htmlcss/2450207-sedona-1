@@ -61,6 +61,10 @@ body {
     margin: 0 auto;
   }
 
+  .information-foto {
+    display: flex;
+  }
+
   .information {
 
     width: 230px;
@@ -115,6 +119,10 @@ body {
     font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+  }
+
+  .bridge-photo {
+    display: flex;
   }
 
   .attractive {
@@ -328,4 +336,13 @@ text-align: center;
 
 .logo {
   width: 115px;
+}
+
+.catalog-filter-group {
+  display: flex;
+  width: 150,43px;
+}
+
+.catalog-filter-list {
+  width: 112px;
 }
