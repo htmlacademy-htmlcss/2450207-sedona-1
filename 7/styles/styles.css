@@ -61,9 +61,16 @@ body {
     margin: 0 auto;
   }
 
+  .information-foto {
+    display: flex;
+  }
+
   .information {
+
+    width: 230px;
     margin: 0;
-    padding: 0;
+    padding: 103px 85px;
+    background-color: #82B3D3;
   }
 
   .recommendations {
@@ -93,9 +100,8 @@ body {
   }
 
   .real-town {
-    display: flex;
+
     width: 175px;
-    padding: 102px 85px;
     color: #FFFFFF;
     background-color: #82B3D3;
     font-weight: 700;
@@ -106,14 +112,17 @@ body {
   }
 
   .town {
-    display: flex;
-    padding: 102px 85px;
+
     width: 230px;
     color: #FFFFFF;
     background-color: #82B3D3;
     font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+  }
+
+  .bridge-photo {
+    display: flex;
   }
 
   .attractive {
@@ -161,6 +170,14 @@ body {
 .advantages-list {
   width: 230px;
   padding: 103px 85px;
+  list-style-type: none;
+}
+
+.bridge {
+  width: 230px;
+  margin: 0;
+  padding: 102px 85px;
+  background-color: #82B3D3;
 }
 
 .dates {
@@ -319,4 +336,13 @@ text-align: center;
 
 .logo {
   width: 115px;
+}
+
+.catalog-filter-group {
+  display: flex;
+  width: 150,43px;
+}
+
+.catalog-filter-list {
+  width: 112px;
 }
