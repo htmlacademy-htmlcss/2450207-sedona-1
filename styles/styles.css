@@ -47,21 +47,22 @@ body {
 
   .logo {
     width: 138px;
-    position: absolute;
   }
+
   .site-navigation {
     display: flex;
     width: 339px;
     margin: 0;
-    padding: 0;
+    padding: 20px  16px;
     list-style-type: none;
   }
 
   .navigation-list-navigation-user{
     display: flex;
     width: 268px;
-    margin: 0 auto;
     list-style-type: none;
+    margin-left: auto;
+    padding: 8px 50px;
   }
 
   .page-container {
@@ -103,7 +104,6 @@ body {
   line-height: 24px;
   text-decoration: none;
   width: 100px;
-  padding: 20px 16px;
 }
 
 .main-index {
