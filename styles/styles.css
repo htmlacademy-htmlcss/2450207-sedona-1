@@ -381,3 +381,7 @@ text-align: center;
 .catalog-filter-list {
   width: 112px;
 }
+
+.hotel-list {
+  display: flex;
+}
