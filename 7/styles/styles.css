@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "PT Sans", serif;
+    font-family: "PT Sans";
     font-weight: 400;
     src: url("../fonts/ptsans-400.woff2");
     font-display: swap;
@@ -355,7 +355,14 @@ text-align: center;
 }
 
 .social-list {
+  display: flex;
   width: 142px;
+
+}
+
+.social-item {
+  width: 47,33px;
+  margin: 0;
 }
 
 .contacts-phone {
