@@ -585,8 +585,11 @@ margin: 0 auto;
  }
 
  .hotels-list {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat (3, 340px);
+  gap: 20px;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
  }
 
