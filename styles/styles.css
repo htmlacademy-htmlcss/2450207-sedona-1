@@ -294,6 +294,20 @@ text-align: center;
   text-decoration: none;
   text-transform: uppercase;
   display: flex;
+  border-radius: 4px;
+}
+
+.want-here:hover,
+.want-here:focus {
+  background-color: #615048;
+}
+
+.want-here:active {
+  background-color: #756157;
+}
+
+.want-here:disabled {
+  background-color: #E5E5E5;
 }
 
 .search {
@@ -307,6 +321,20 @@ text-align: center;
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
+  border-radius: 4px;
+}
+
+.search:hover,
+.search:focus {
+background-color: #615048;
+}
+
+.search:active {
+  background-color: #756157;
+}
+
+.search:disabled {
+  background-color: #E5E5E5;
 }
 
 .hotel-header {
@@ -348,6 +376,15 @@ text-align: center;
   text-transform: uppercase;
 }
 
+.button:hover,
+.button:focus {
+  background-color: #68A2CA;
+}
+
+.button:disabled {
+  background-color: #E5E5E5;
+}
+
 .apply {
   font-weight: 700;
   font-size: 16px;
@@ -357,7 +394,18 @@ text-align: center;
   text-transform: uppercase;
   margin-bottom: 30px;
   padding: 8px 50px;
+  border-radius: 4px;
 }
+
+.apply:hover,
+.apply:focus {
+  background-color: #68A2CA;
+}
+
+.apply:disabled {
+  background-color: #E5E5E5;
+}
+
 
 .reset {
   font-weight: 700;
@@ -373,6 +421,8 @@ text-align: center;
 .button-newsletter-button {
   width: 232px;
   background-color: #82B3D3;
+  border-radius: 0 4px 4px 0;
+  border: 0;
 }
 
 .hotels-found {
@@ -424,34 +474,44 @@ text-align: center;
 }
 
 .hotels-card-button {
+  display: flex;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   color: #FFFFFF;
   text-decoration: none;
-  /*padding: 8px 25px 8px 25px;*/
   background-color: #756157;
-  /*margin-right: 10px;*/
+  padding: 8px 50px;
+  text-align: center;
+  border-radius: 4px;
+  justify-content: center;
 }
 
 .hotels-cards-button {
+  display: flex;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   color: #FFFFFF;
   text-decoration: none;
-  /*padding: 8px 25px 8px 25px;*/
-  background-color:#82B3D3
+  background-color:#82B3D3;
+  padding: 8px;
+  text-align: center;
+  border-radius: 4px;
+  justify-content: center;
 }
 
 .hotels-cards-buttons {
+  display: flex;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   color: #FFFFFF;
   text-decoration: none;
-  /*padding: 8px 25px 8px 25px;*/
   background-color: #7DB54F;
+  border-radius: 4px;
+  justify-content: center;
+  padding: 8px;
 }
 
 .pagination-link {
@@ -464,10 +524,25 @@ text-align: center;
   margin: 10px;
   list-style-type: none;
   padding: 20px;
+  border-radius: 4px;
 }
+
+.pagination-current {
+color:#000000;
+background-color: #F2F2F2;
+}
+
+.pagination-links {
+  color: #000000;
+  background-color: #FFFFFF;
+  font-size: 22px;
+  line-height: 26px;
+  text-decoration: none;
+}
+
 .page-footer-container {
   display: flex;
-  width: 1060px;
+  width: 1200px;
   justify-content: space-between;
   margin: 0 auto;
 }
@@ -475,10 +550,6 @@ text-align: center;
 .social-list {
   display: flex;
   width: 142px;
-}
-
-.social-item {
-  width: 47px;
 }
 
 .contacts-phone {
@@ -489,11 +560,33 @@ text-align: center;
   font-size: 40px;
   line-height: 40px;
   text-align: center;
-  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.contacts-phone:hover,
+.contacts-phone:focus {
+  color: #756157;
+}
+
+.contacts-phone:active {
+  color: #756157;
+  opacity: 30%;
 }
 
 .logo-html {
   width: 115px;
+  margin-top: 40px;
+  margin-right: 70px;
+}
+
+.logo-html:hover,
+.logo-html:focus {
+  color: #756157;
+}
+
+.logo-html:active {
+  color: #756157;
+  opacity: 30%;
 }
 
 .catalog-filter-group {
@@ -525,6 +618,7 @@ flex-direction: column;
 .field {
   width: 452px;
   padding-left: 20px;
+  border-radius: 4px 0 0 4px;
 }
 
 .hotels {
@@ -558,6 +652,7 @@ margin: 0 auto;
 .form-price {
   width: 143px;
   height: 48px;
+  border-radius: 4px;
 }
 
 .button-submit {
@@ -602,16 +697,39 @@ margin: 0 auto;
  }
 
  .rating {
+  display: flex;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
  background-color: #F2F2F2;
+ border-radius: 4px;
+ justify-content: center;
+  padding: 8px;
  }
 
- .icon {
-  margin-right: 10px;
+ .icon-home {
+  margin-left: 80px;
   margin-bottom: 40px;
+  background-image: url("../images/house.png");
+  width: 75px;
+  height: 72px;
  }
+
+ .icon-food {
+  background-image: url("../images/food.png");
+  width: 75px;
+  height: 72px;
+  margin-left: 80px;
+ }
+
+ .icon-gift {
+  background-image: url("../images/gift.png");
+  width: 75px;
+  height: 72px;
+  margin-left: 80px;
+  padding-bottom: 5px;
+ }
+
 
  .filter-price {
   display:flex;
@@ -633,4 +751,97 @@ input[type=text] {
 .pagination {
   display: flex;
   list-style-type: none;
+}
+
+.navigation-link-current {
+  position: relative;
+}
+
+.navigation-link-current::after {
+  position: absolute;
+  content: "";
+  right: 8px;
+  left: 8px;
+  bottom: 0;
+  height: 2px;
+  background: #756257;
+}
+
+.circle {
+  background: #7DB54F;
+ border-radius: 10px;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  top: -45px;
+  left: 10px;
+}
+
+.circle-content {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  text-align: center;
+  text-decoration: none;
+  color: #FFFFFF;
+  padding-top: 2px;
+}
+
+.vk {
+background-image: url("../images/social-vk.png");
+width: 24px;
+height: 14px;
+list-style-type: none;
+padding: 10px;
+background-repeat: no-repeat;
+margin-top: 40px;
+margin-left: 0;
+}
+
+.telegram {
+  background-image: url("../images/telegram.png");
+  width: 18px;
+height: 16px;
+list-style-type: none;
+padding: 10px;
+background-repeat: no-repeat;
+margin-top: 40px;
+}
+
+.youtube {
+  background-image: url("../images/youtube.png");
+  width: 22px;
+height: 17px;
+list-style-type: none;
+padding: 10px;
+background-repeat: no-repeat;
+margin-top: 40px;
+}
+
+.social-item:hover,
+.social-item:focus {
+background-color:#68A2CA;
+}
+
+.social-item:active {
+opacity: 30%;
+}
+
+.icon {
+  padding: 5px 7px;
+}
+
+.line {
+  display: flex;
+  width: 60px;
+  border-top: 2px solid #000000;
+  opacity: 30%;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.white {
+  border-top: 2px solid #FFFFFF;
+  opacity: 30%;
+  margin-top: 15px;
 }
