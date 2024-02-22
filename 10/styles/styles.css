@@ -161,19 +161,20 @@ body {
     font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+  position: relative;
+  margin-top: 60px;
   }
 
   .town::before {
     content: "";
     position: absolute;
-    top:0;
-    left: 0;
+    top: -30px;
+    left: 80px;
     width: 60px;
     height: 2px;
     background-color:  #FFFFFF;
     opacity: 30%;
-
-  }
+   }
 
   .bridge-photo {
     display: flex;
@@ -216,16 +217,28 @@ body {
   line-height: 28px;
   text-transform: uppercase;
   align-items: center;
+  margin-top: 0;
 }
 
 .advantage {
-
+  position: relative;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   list-style-type: none;
   align-items: center;
 }
+
+.advantage:before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 80px;
+  width: 60px;
+  height: 2px;
+  background-color:  #000000;
+  opacity: 30%;
+ }
 
 .advantages-list {
   width: 230px;
@@ -783,7 +796,7 @@ input[type=text] {
   content: "";
   right: 8px;
   left: 8px;
-  bottom: 0;
+  top: 63px;
   height: 2px;
   background: #756257;
 }
