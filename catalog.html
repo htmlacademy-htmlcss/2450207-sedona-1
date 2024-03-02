@@ -93,7 +93,7 @@
                   </ul>
             </fieldset>
               </form>
-              <fieldset class="catalog-filter-group">
+              <fieldset class="catalog-filter-group types">
               <legend class="catalog-filter-title">Тип жилья:</legend>
               <ul class="catalog-filter-list">
                 <li class="catalog-filter-item">
@@ -130,7 +130,18 @@
               <p class="form-price">
           <input type="text" id="cost" name="price" placeholder="9000    до">
         </p>
-        <p class="range-slider"></p>
+        <div class="range">
+          <div class="range-scale">
+            <div class="range-bar" style="left: 42px; width: 136px">
+              <button class="range-toggle toggle-min">
+                <span class="visually-hidden">Изменить минимальную цену.</span>
+              </button>
+              <button class="range-toggle toggle-max">
+                <span class="visually-hidden">Изменить максимальную цену.</span>
+              </button>
+            </div>
+          </div>
+
         </form>
             </div>
         <div class="button-submit">
@@ -144,12 +155,12 @@
           <div class="found">
           <h2 class="found-title">Найдено гостиниц: 38</h2>
           <select class="select-control" aria-label="Сортировка">
+            <option value="cheap">Сначала дешёвые</option>
           <option value="popular">Сначала популярные</option>
-          <option value="cheap">Сначала дешёвые</option>
           <option value="expensive">Сначала дорогие</option>
         </select>
         <div class="button-light">
-         <a href="#" class="button-button-light">
+         <a href="#" class="button-button-light black">
           <span class="visually-hidden">Показать гостиницы</span>
           <div class="view-icon"></div>
         </a>
