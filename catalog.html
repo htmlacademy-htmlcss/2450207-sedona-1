@@ -65,6 +65,7 @@
           <div class="catalog-infrastructure">
           <form action="https://echo.htmlacademy.ru/" method="get">
             <fieldset class="catalog-filter-group">
+              <form class="infrastructure">
                 <legend class="catalog-filter-title">Инфраструктура:</legend>
                 <ul class="catalog-filter-list">
                     <li class="catalog-filter-item">
@@ -124,12 +125,12 @@
             <div class="catalog-price">
             <p class="catalog-filter-title">Стоимость, ₽:</p>
             <form class="price" action="https://echo.htmlacademy.ru/" method="post">
-              <p class="form-price">
-              <input type="text" id="price" name="price" placeholder="0    от">
-              </p>
-              <p class="form-price">
-          <input type="text" id="cost" name="price" placeholder="9000    до">
-        </p>
+
+              <input class="form-price" type="text" id="price" name="price" placeholder="0    от">
+            </input>
+
+          <input class="form-price" type="text" id="cost" name="price" placeholder="9000    до">
+          </input>
         <div class="range">
           <div class="range-scale">
             <div class="range-bar" style="left: 42px; width: 136px">
@@ -147,6 +148,7 @@
         <div class="button-submit">
           <button class="apply" type="submit">Применить</button>
         <button class="reset" type="submit">Сбросить</button>
+      </form>
         </div>
         </div>
         </div>
