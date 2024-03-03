@@ -724,8 +724,8 @@ margin-left: 0;
   display: flex;
   flex-direction: column;
   margin-left: 330px;
-  margin-top: 0;
   align-content: flex-end;
+  margin-top: 0;
 }
  .found-title {
   font-size: 30px;
@@ -1008,10 +1008,17 @@ border: none;
 
 .toggle-max {
   top: -8px;
-  right: -10px;
+  right: -40px;
 }
 
 .range {
-  margin-left: 0;
-  margin-top: 100px;
+margin: 40px 10px;
+}
+
+.prices {
+  display: flex;
+}
+
+.catalog-filter-item {
+  margin-bottom: 16px;
 }
