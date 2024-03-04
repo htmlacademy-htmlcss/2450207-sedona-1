@@ -164,6 +164,7 @@ body {
   line-height: 21px;
   position: relative;
   margin-top: 60px;
+  margin-bottom: 0;
   }
 
   .town::before {
@@ -208,7 +209,7 @@ body {
 .advantage-list {
   display: flex;
   width: 1200px;
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .advantages {
@@ -665,7 +666,7 @@ background-color: #F2F2F2;
 
 .catalog-price {
   display: flex;
-  flex-direction: column;
+
   margin-top: 0;
 }
 
@@ -709,9 +710,7 @@ background-color: #F2F2F2;
 
 .price {
 display: flex;
-width: 288px;
-height: 48px;
-margin-left: 0;
+flex-direction: column;
 }
 
 .form-price {
@@ -723,9 +722,9 @@ margin-left: 0;
 .button-submit {
   display: flex;
   flex-direction: column;
-  margin-left: 330px;
+  margin-left: 55px;
   align-content: flex-end;
-  margin-top: 0;
+  margin-top: 45px;
 }
  .found-title {
   font-size: 30px;
