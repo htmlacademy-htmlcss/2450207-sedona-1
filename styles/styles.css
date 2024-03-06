@@ -492,7 +492,6 @@ background-color: #615048;
   font-size: 30px;
   line-height: 36px;
   color: #000000;
-  text-transform: uppercase;
 }
 
 .select-control {
@@ -580,6 +579,7 @@ background-color: #615048;
   border-radius: 4px;
   justify-content: center;
   padding: 8px;
+  text-transform: uppercase;
 }
 
 .pagination-link {
@@ -1044,4 +1044,12 @@ margin: 40px 10px;
   font-size: 18px;
   line-height: 21px;
   width: 230px;
+}
+
+.hotel-cards {
+  display: grid;
+  align-self: end;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
 }
