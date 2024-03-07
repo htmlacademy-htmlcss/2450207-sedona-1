@@ -492,6 +492,8 @@ background-color: #615048;
   font-size: 30px;
   line-height: 36px;
   color: #000000;
+  width: 1060px;
+  margin: 0 auto;
 }
 
 .select-control {
@@ -527,7 +529,7 @@ background-color: #615048;
   font-size: 18px;
   line-height: 21px;
   color: #000000;
-  margin-top: 0;
+  margin-top: 22px;
   margin-bottom: 0;
 }
 
@@ -709,6 +711,7 @@ background-color: #F2F2F2;
     margin: 0 32px;
     height: 412px;
     padding: 5px 50px 70px 70px;
+    background-size: cover;
 }
 
 .catalog-infrastructure {
@@ -783,7 +786,8 @@ flex-direction: column;
  .hotels-card {
   display: grid;
   grid-template-columns: repeat(2, 140px);
-  gap: 16px 20px;
+  gap: 0 22px;
+  padding: 16px;
  }
 
  .rating {
@@ -795,7 +799,6 @@ flex-direction: column;
  border-radius: 4px;
  justify-content: center;
   padding: 8px;
-  margin-top: 0;
   text-transform: uppercase;
  }
 
@@ -951,6 +954,8 @@ border: none;
   background-image: url("../images/stars-four.svg");
   width: 140px;
   height: 37px;
+  background-position: left center;
+  background-repeat: no-repeat;
 }
 
 .stars-three {
@@ -1047,9 +1052,14 @@ margin: 40px 10px;
 }
 
 .hotel-cards {
-  display: grid;
-  align-self: end;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+}
+
+.phone {
+  width: 331px;
 }
