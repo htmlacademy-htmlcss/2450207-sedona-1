@@ -320,6 +320,7 @@ font-weight: 400;
 text-align: center;
 padding-top: 96px;
 padding-bottom: 104px;
+margin-left: 29px;
 }
 
 .sub {
@@ -425,7 +426,16 @@ background-color: #615048;
   color: #FFFFFF;
   text-decoration: none;
   margin-top: 11px;
-  margin-left: 4px;
+  margin-left: 0;
+}
+
+.catalog-filter-price {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin: 17px 0 17px 12px;
 }
 
 .control {
@@ -502,6 +512,17 @@ background-color: #615048;
   margin: 0 auto;
 }
 
+.hotels-subscribe {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  text-transform: uppercase;
+  margin-top: 40px;
+
+  margin-bottom: 20px;
+}
+
 .select-control {
   font-weight: 400;
   font-size: 18px;
@@ -510,7 +531,9 @@ background-color: #615048;
   width: 292px;
   height: 49px;
   border-radius: 2px;
-  margin-left: 95px;
+  margin-left: 130px;
+  margin-top: -7px;
+  padding: 12px;
 }
 
 .hotels-card-title {
@@ -520,6 +543,7 @@ background-color: #615048;
   color: #000000;
   text-decoration: none;
   margin-bottom: 0;
+  margin-top: 15px;
 }
 
 .hotels-card-link {
@@ -539,6 +563,7 @@ background-color: #615048;
   margin-top: 22px;
   margin-bottom: 0;
 }
+
 
 .subscribe {
   font-weight: 400;
@@ -685,14 +710,13 @@ background-color: #F2F2F2;
 .catalog-filter-list {
   width: 150px;
   list-style-type: none;
-  margin-top: 25px;
+  margin-top: 28px;
   margin-left: 0;
   padding-left: 0;
 }
 
 .catalog-price {
   display: flex;
-
   margin-top: 0;
 }
 
@@ -705,6 +729,10 @@ background-color: #F2F2F2;
   margin: 0 auto;
   width: 684px;
   height: 52px;
+ }
+
+ .useful-information {
+  margin-bottom: 52px;
  }
 
 .field {
@@ -725,7 +753,8 @@ background-color: #F2F2F2;
 
 .catalog-infrastructure {
   display: flex;
-  margin-top: 0;
+ margin-top: -3px;
+ margin-left: -7px;
 }
 
 .hotels-search {
@@ -752,9 +781,9 @@ margin-top: -20px;
 .button-submit {
   display: flex;
   flex-direction: column;
-  margin-left: 55px;
+  margin-left: 53px;
   align-content: flex-end;
-  margin-top: 45px;
+  margin-top: 52px;
 }
  .found-title {
   font-size: 30px;
@@ -770,7 +799,7 @@ margin-top: -20px;
   width: 1200px;
   padding-left: 10px;
   margin-top: 55px;
-  margin-left: 15px;
+  margin-left: 20px;
  }
 
  .button-button-light {
@@ -801,7 +830,8 @@ margin-top: -20px;
   display: grid;
   grid-template-columns: repeat(2, 140px);
   gap: 0 22px;
-  padding: 16px;
+  padding: 16px 16px 0 16px;
+  margin-top: 10px;
  }
 
  .rating {
@@ -852,8 +882,8 @@ margin-top: -20px;
  .button-light {
   display: flex;
   justify-content: flex-end;
-  margin: 0;
-  margin-right: 140px;
+  margin-top: -10px;
+  margin-right: 137px;
  }
 
 
@@ -865,6 +895,17 @@ input[type=text] {
 .pagination {
   display: flex;
   list-style-type: none;
+  margin-top: 95px;
+  margin-left: -16px;
+}
+
+.pagination-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  width: 60px;
+  height: 60px;
+  padding: 17px 24px;
 }
 
 .navigation-link-current {
@@ -949,6 +990,7 @@ margin-right: 10px;
 
 .breadcrumbs {
 margin-right: 10px;
+margin-top: 7px;
 }
 
 .divider {
@@ -1015,7 +1057,7 @@ border: none;
   background-color: #FFFFFF;
   width: 287px;
   border-radius: 2px;
-  margin-left: 0;
+  margin-left: 12px;
 }
 
 .range-bar {
@@ -1053,16 +1095,17 @@ border: none;
 }
 
 .range {
-margin: 40px 10px;
+margin: 42px 10px;
 }
 
 .prices {
   display: flex;
-  margin-top: 11px;
+  margin-top: 13px;
+  margin-left: 5px;
 }
 
 .catalog-filter-item {
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 .recommend {
@@ -1087,4 +1130,21 @@ margin: 40px 10px;
 
 .main-catalog {
   margin-left: -50px;
+}
+
+.control-input {
+  width: 20px;
+  height: 20px;
+  margin-right: 11px;
+  background-color: #F2F2F2;
+}
+
+.last {
+  margin-top: 6px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  text-decoration: none;
+  margin-bottom: -5px;
 }
