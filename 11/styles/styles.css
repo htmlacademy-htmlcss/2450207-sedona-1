@@ -425,7 +425,7 @@ background-color: #615048;
   line-height: 24px;
   color: #FFFFFF;
   text-decoration: none;
-  margin-top: 11px;
+  margin-top: 0;
   margin-left: 0;
 }
 
@@ -449,9 +449,16 @@ background-color: #615048;
 }
 
 .control-radio {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: none;
   color: #FFFFFF;
   width: 20px;
   height: 20px;
+  appearance: none;
+  background-color: #FFFFFF;
+  margin-right: 10px;
 }
 
 .control-mark {
@@ -463,18 +470,22 @@ background-color: #615048;
   border: 2px solid #242424;
 }
 
-.control-radio[type="radio"]:checked   {
+.control-radio[type="radio"]:checked::after   {
+  position: absolute;
   accent-color: black ;
     top: 4px;
   left: 4px;
-  width: 20px;
-  height: 20px;
-  background-color: #242424;
+  width: 10px;
+  height: 10px;
+  background-color: #3F5E72;
   content: "";
-  border: 2px solid #242424;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.control-radio[type="radio"] + .control-mark {
+.control-radio[type="radio"] {
   border-radius: 50%;
 }
 
@@ -601,7 +612,7 @@ background-color: #615048;
   font-size: 18px;
   line-height: 21px;
   color: #000000;
-  margin-top: 22px;
+  margin-top: 15px;
   margin-bottom: 0;
 }
 
@@ -751,7 +762,15 @@ background-color: #F2F2F2;
 .catalog-filter-list {
   width: 150px;
   list-style-type: none;
-  margin-top: 28px;
+  margin-top: 25px;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.catalog-filter-list-type {
+  width: 150px;
+  list-style-type: none;
+  margin-top: 32px;
   margin-left: 0;
   padding-left: 0;
 }
@@ -800,9 +819,9 @@ background-color: #F2F2F2;
 
 .hotels-search {
   display: flex;
-  margin-top: 20px;
-  padding-left: 4px;
-  margin-top: 20px;
+  margin-top: 15px;
+  padding-left: 2px;
+
   padding-top: 8px;
 }
 
@@ -1139,7 +1158,7 @@ border: none;
 }
 
 .range {
-margin: 42px 10px;
+margin: 40px 7px;
 }
 
 .prices {
@@ -1165,6 +1184,7 @@ margin: 42px 10px;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+  margin-top: 13px;
 }
 
 .phone {
@@ -1191,8 +1211,6 @@ margin: 42px 10px;
   border-radius: 5px;
 }
 
-
-
 .last {
   margin-top: 6px;
   font-weight: 700;
@@ -1201,4 +1219,12 @@ margin: 42px 10px;
   color: #000000;
   text-decoration: none;
   margin-bottom: -5px;
+}
+
+.wi-fi {
+  margin-right: 10px;
+}
+
+.greentree {
+  margin-top: 24px;
 }
