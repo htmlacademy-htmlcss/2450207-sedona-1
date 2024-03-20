@@ -1197,10 +1197,13 @@ margin: 40px 7px;
 }
 
 .control-input {
+  margin: 0;
+  position: absolute;
   width: 20px;
   height: 20px;
-  margin-right: 11px;
-  background-color: #F2F2F2;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  cursor: pointer;
   appearance: none;
 }
 
@@ -1209,6 +1212,12 @@ margin: 40px 7px;
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 5px;
+}
+
+.control-label {
+  background-image: url("../images/checkbox.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .last {
