@@ -419,6 +419,16 @@ background-color: #615048;
   margin-top: 10px;
 }
 
+.crumbs::before {
+  position: absolute;
+  content: " ";
+  background-image: url("../images/breadcrumbs.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 8px;
+}
+
 .catalog-filter-title {
   font-weight: 700;
   font-size: 20px;
@@ -443,7 +453,6 @@ background-color: #615048;
   font-size: 18px;
   line-height: 23px;
   color: #FFFFFF;
-  width:
   height: 20px;
   border-radius: 10px;
   position: relative;
@@ -1049,8 +1058,12 @@ opacity: 30%;
 }
 
 .icon {
+  background-image: url("../images/icon-home.svg");
+  width: 13px;
 margin-top: 10px;
 margin-right: 10px;
+background-repeat: no-repeat;
+background-position: center;
 }
 
 .breadcrumbs {
@@ -1240,4 +1253,16 @@ margin: 40px 7px;
 
 .greentree {
   margin-top: 24px;
+}
+
+.price-selection {
+  position: absolute;
+  margin-left: 120px;
+  margin-top: 15px;
+}
+
+.price-selection-input {
+  position: absolute;
+  margin-left: 280px;
+  margin-top: 15px;
 }
