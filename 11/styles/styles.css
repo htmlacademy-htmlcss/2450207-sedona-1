@@ -446,6 +446,8 @@ background-color: #615048;
   width: 20px;
   height: 20px;
   border-radius: 10px;
+  position: relative;
+  display: block;
 }
 
 .control-radio {
@@ -1169,6 +1171,7 @@ margin: 40px 7px;
 
 .catalog-filter-item {
   margin-bottom: 12px;
+  width: 151px;
 }
 
 .recommend {
@@ -1218,6 +1221,16 @@ margin: 40px 7px;
   background-image: url("../images/checkbox.svg");
   background-repeat: no-repeat;
   background-position: center;
+  line-height: 23px;
+  padding-left: 36px;
+  cursor: pointer;
+}
+
+.control-input[type="checkbox"]:checked {
+  position: absolute;
+  background-image: url("../images/vector.svg");
+  background-repeat: no-repeat;
+  background-position: left 4px center;
 }
 
 .last {
