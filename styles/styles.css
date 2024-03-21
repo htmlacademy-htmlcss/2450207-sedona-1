@@ -972,6 +972,9 @@ margin-top: -20px;
 input[type=text] {
    width: 143px;
    height: 48px;
+   box-sizing: border-box;
+   padding-left: 18px;
+   padding-top: 8px;
 }
 
 .pagination {
@@ -1187,8 +1190,8 @@ margin: 40px 7px;
 
 .prices {
   display: flex;
-  margin-top: 13px;
-  margin-left: 5px;
+  margin-top: 16px;
+  margin-left: 13px;
   width: 288px;
 }
 
@@ -1267,12 +1270,12 @@ margin: 40px 7px;
 
 .price-selection {
   position: absolute;
-  margin-left: 120px;
+  margin-left: 106px;
   margin-top: 15px;
 }
 
 .price-selection-input {
   position: absolute;
-  margin-left: 280px;
+  margin-left: 250px;
   margin-top: 15px;
 }
