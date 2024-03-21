@@ -417,6 +417,7 @@ background-color: #615048;
   line-height: 21px;
   color: #FFFFFF;
   margin-top: 10px;
+  margin-left: 15px;
 }
 
 .crumbs::before {
@@ -425,8 +426,9 @@ background-color: #615048;
   background-image: url("../images/breadcrumbs.svg");
   background-repeat: no-repeat;
   background-position: center;
-  height: 100%;
+  height: 12px;
   width: 8px;
+  margin-left: -19px;
 }
 
 .catalog-filter-title {
@@ -453,10 +455,11 @@ background-color: #615048;
   font-size: 18px;
   line-height: 23px;
   color: #FFFFFF;
-  height: 20px;
+
   border-radius: 10px;
   position: relative;
   display: block;
+  margin-bottom: 15px;
 }
 
 .control-radio {
@@ -1060,7 +1063,7 @@ opacity: 30%;
 .icon {
   background-image: url("../images/icon-home.svg");
   width: 13px;
-margin-top: 10px;
+margin-top: 7px;
 margin-right: 10px;
 background-repeat: no-repeat;
 background-position: center;
@@ -1180,6 +1183,7 @@ margin: 40px 7px;
   display: flex;
   margin-top: 13px;
   margin-left: 5px;
+  width: 288px;
 }
 
 .catalog-filter-item {
