@@ -179,8 +179,33 @@
       <label class="modal-label" for="departure-date">Дата Выезда:</label>
       <input class="dates-input" type="text" name="departure">
       <p class="departure-comment">На эти даты есть свободные номера. Пока есть</p>
+      <div class="modal-quantity">
       <label class="modal-label" for="adults">Взрослые:</label>
+      <div class="quantity-adult">
+        <button class="bt-minus"> -</button>
+        <input type="text" value="2" size="2" class="quantity" data-max-count="20" />
+        <button class="bt-plus">+</button>
+    </div>
       <label class="modal-label" for="children">Дети:</label>
+
+      <span class="tooltip">
+        <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label-date">
+          <svg class="tooltip-icon" width="1" height="9" viewBox="0 0 1 9" fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#a)">
+             <path d="M0 9h1V3H0v6ZM1 0H0v1h1V0Z" />
+            </g>
+          </svg>
+        </button>
+        <span class="tooltip-text">Укажите количество детей, которые будут с вами, возраст
+          которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
+      </span>
+      <div class="quantity-children">
+        <button class="bt-minus"> -</button>
+      <input type="text" value="2" size="2" class="quantity" data-max-count="20" />
+      <button class="bt-plus">+</button>
+      </div>
+    </div>
       <div class="button-found">
         <button class="modal-found" type="submit">Найти</button>
 
