@@ -179,13 +179,13 @@
       <p class="arrival-comment">  Мы не можем отправить вас в прошлое. </p>
         </div>
       <label class="modal-label" for="departure-date">Дата Выезда:</label>
-      <input class="dates-input" type="text" name="departure" value="1 сентября 2023">
+      <input id="departure-date" class="dates-input" type="text" name="departure" value="1 сентября 2023">
       <p class="departure-comment">На эти даты есть свободные номера. Пока есть</p>
       <div class="modal-quantity">
       <label class="modal-label" for="adults">Взрослые:</label>
       <div class="quantity-adult">
         <button class="bt-minus"> -</button>
-        <input type="text" value="2" size="2" class="quantity" data-max-count="20" />
+        <input id="adults" value="2" size="2" class="quantity" data-max-count="20" />
         <button class="bt-plus">+</button>
     </div>
       <label class="modal-label" for="children">Дети:</label>
@@ -204,16 +204,17 @@
       </span>
       <div class="quantity-children">
         <button class="bt-minus"> -</button>
-      <input type="text" value="2" size="2" class="quantity" data-max-count="20" />
+      <input id="children" value="2" size="2" class="quantity" data-max-count="20" />
       <button class="bt-plus">+</button>
       </div>
     </div>
       <div class="button-found">
         <button class="modal-found" type="submit">Найти</button>
+      </div>
+      </form>
+        </section>
+    </div>
+    </div>
 
-      </div>
-      </section>
-      </div>
-  </div>
   </body>
 </html>
