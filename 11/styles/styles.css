@@ -1297,7 +1297,7 @@ margin: 40px 7px;
 }
 
 .modal-auth {
-  width: 717px;
+  width: 582px;
   border-radius: 30px;
 }
 
@@ -1321,16 +1321,23 @@ margin: 40px 7px;
   line-height: 36px;
   font-weight: 700;
   text-transform: uppercase;
+  margin-top: 5px;
+  margin-bottom: 65px;
 }
 
 .arrival-comment {
   color: #FF5757;
+  margin: 0 0 30px 153px;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
 }
 
 .modal-label {
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
+  margin-right: 15px;
 }
 
 .modal-found {
@@ -1394,7 +1401,7 @@ margin: 40px 7px;
   font-size: 18px;
   line-height: 20px;
   font-weight: 700;
-
+  text-align: center;
 }
 
 .quantity-adult .bt-minus,
@@ -1431,10 +1438,15 @@ margin: 40px 7px;
 
 .modal-quantity {
   display: flex;
+  margin-bottom: 20px;
 }
 
 .tooltip-toggle {
+  position: relative;
+  width: 26px;
+  height: 26px;
   border: none;
+  border-radius: 50%;
   background-color: #83b3d3;
   padding: 0;
   margin: 0;
@@ -1450,9 +1462,11 @@ margin: 40px 7px;
 
 .tooltip-toggle:hover .tooltip-icon {
   color:#68a2ca;
+  display: block;
 }
 
 .tooltip-text {
+  position: absolute;
   background-color: #333333;
   color: #FFFFFF;
   font-size: 16px;
@@ -1463,6 +1477,8 @@ margin: 40px 7px;
   border-radius: 10px;
   display: block;
   width: 256px;
+  height: 152px;
+  margin-top: 10px;
 }
 
 .dates-input {
@@ -1477,4 +1493,11 @@ margin: 40px 7px;
   line-height: 24px;
   font-weight: 700;
   background-color: #F2F2F2;
+}
+
+.departure-comment{
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  margin: 0 0 30px 153px;
 }
