@@ -1322,7 +1322,7 @@ margin: 40px 7px;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 5px;
-  margin-bottom: 65px;
+  margin-bottom: 70px;
 }
 
 .arrival-comment {
@@ -1338,6 +1338,7 @@ margin: 40px 7px;
   line-height: 24px;
   font-weight: 700;
   margin-right: 15px;
+  margin-top: 10px;
 }
 
 .modal-found {
@@ -1351,6 +1352,10 @@ margin: 40px 7px;
   border-radius: 10px;
   border: 0;
   text-transform: uppercase;
+}
+
+.button-found {
+  margin-top: 45px;
 }
 
 .modal-container-close {
@@ -1369,7 +1374,6 @@ margin: 40px 7px;
 .quantity-children .bt-minus,
 .quantity-children .bt-plus,
 .quantity-children .quantity {
-  height: 48px;
   width: 40px;
   padding: 0;
   border: 0;
@@ -1402,13 +1406,12 @@ margin: 40px 7px;
   font-size: 18px;
   line-height: 20px;
   font-weight: 700;
-  text-align: center;
+  margin-top: -10px;
 }
 
 .quantity-adult .bt-minus,
 .quantity-adult .bt-plus,
 .quantity-adult .quantity {
-  height: 48px;
   width: 40px;
   padding: 0;
   border: 0;
@@ -1450,15 +1453,17 @@ margin: 40px 7px;
   border-radius: 50%;
   background-color: #83b3d3;
   padding: 0;
-  margin: 0;
+
   display: block;
+  margin-top: 10px;
 }
 
 .tooltip-icon {
   width: 1px;
   height: 9px;
-  color: #83b3d3;
+  color: #FFFFFF;
   display: block;
+  margin-left: 10px;
 }
 
 .tooltip-toggle:hover .tooltip-icon {
@@ -1481,11 +1486,11 @@ margin: 40px 7px;
   padding: 20px 18px 18px 22px;
   border-radius: 10px;
   display: block;
-  width: 256px;
-  height: 152px;
-  margin-top: 10px;
-  display: none;
-  right: 10%;
+  width: 220px;
+  height: 110px;
+  margin-top: 14px;
+  /*display: none;*/
+  right: 16%;
 }
 
 .dates-input {
@@ -1500,6 +1505,7 @@ margin: 40px 7px;
   line-height: 24px;
   font-weight: 700;
   background-color: #F2F2F2;
+  border: none;
 }
 
 .departure-comment{
@@ -1519,12 +1525,15 @@ margin: 40px 7px;
 }
 
 .tooltip-text::after {
-  top: -55px;
-  border: 30px solid transparent;
-  border-bottom: 30px solid #333333;
+  top: -18px;
+  border: 10px solid transparent;
+  border-bottom: 10px solid #333333;
 }
 
 .tooltip-text::before {
   top: -9px;
+}
 
+.children-label {
+  margin-left: 5px;
 }
