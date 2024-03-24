@@ -1485,6 +1485,7 @@ margin: 40px 7px;
   height: 152px;
   margin-top: 10px;
   display: none;
+  right: 10%;
 }
 
 .dates-input {
@@ -1506,4 +1507,24 @@ margin: 40px 7px;
   line-height: 21px;
   font-weight: 400;
   margin: 0 0 30px 153px;
+}
+
+.tooltip-text::after, .popup::before {
+  content: '';
+  position: absolute;
+  width: 0;
+   height: 0;
+  margin: 0 auto;
+  right: 0; left: 0;
+}
+
+.tooltip-text::after {
+  top: -55px;
+  border: 30px solid transparent;
+  border-bottom: 30px solid #333333;
+}
+
+.tooltip-text::before {
+  top: -9px;
+
 }
