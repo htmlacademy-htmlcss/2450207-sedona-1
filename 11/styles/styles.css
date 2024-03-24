@@ -1395,6 +1395,7 @@ margin: 40px 7px;
   border: none;
   margin-left: 20px;
   height: 48px;
+  margin-right: 60px;
 }
 
 .quantity {
@@ -1465,6 +1466,10 @@ margin: 40px 7px;
   display: block;
 }
 
+.tooltip-toggle:hover + .tooltip-text{
+  display: block;
+}
+
 .tooltip-text {
   position: absolute;
   background-color: #333333;
@@ -1479,6 +1484,7 @@ margin: 40px 7px;
   width: 256px;
   height: 152px;
   margin-top: 10px;
+  display: none;
 }
 
 .dates-input {
