@@ -1371,6 +1371,7 @@ margin: 40px 7px;
   margin-left: 20px;
   height: 48px;
 }
+
 .quantity-children .bt-minus,
 .quantity-children .bt-plus,
 .quantity-children .quantity {
@@ -1379,16 +1380,25 @@ margin: 40px 7px;
   border: 0;
   margin: 0;
   padding: 14px 10px;
-  background: transparent;
   cursor: pointer;
   outline: 0;
   text-align: center;
 }
 
-.bt-minus .bt-plus {
+.bt-minus {
+ background-image: url("../images/minus.svg");
   width: 20px;
   height: 20px;
-  color: rgba(117, 97, 87, 0.3);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bt-plus {
+  background-image: url("../images/plus.svg");
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .quantity-adult {
@@ -1407,17 +1417,17 @@ margin: 40px 7px;
   line-height: 20px;
   font-weight: 700;
   margin-top: -10px;
+  background-color: #F2F2F2;
 }
 
 .quantity-adult .bt-minus,
 .quantity-adult .bt-plus,
 .quantity-adult .quantity {
-  width: 40px;
+  width: 40px ;
   padding: 0;
   border: 0;
-  margin: 0;
+
   padding: 14px 10px;
-  background: transparent;
   cursor: pointer;
   outline: 0;
   text-align: center;
