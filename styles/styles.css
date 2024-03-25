@@ -1368,7 +1368,7 @@ margin: 40px 7px;
   background-color:  #F2F2F2;
   border-radius: 4px;
   border: none;
-  margin-left: 20px;
+  margin-left: 42px;
   height: 48px;
 }
 
@@ -1379,10 +1379,10 @@ margin: 40px 7px;
   padding: 0;
   border: 0;
   margin: 0;
-  padding: 14px 10px;
   cursor: pointer;
   outline: 0;
   text-align: center;
+  margin-top: 10px;
 }
 
 .bt-minus {
@@ -1403,12 +1403,10 @@ margin: 40px 7px;
 
 .quantity-adult {
   box-sizing: border-box;
-  display: inline-flex;
   background-color:  #F2F2F2;
   border-radius: 4px;
   border: none;
   margin-left: 20px;
-  height: 48px;
   margin-right: 60px;
 }
 
@@ -1416,7 +1414,7 @@ margin: 40px 7px;
   font-size: 18px;
   line-height: 20px;
   font-weight: 700;
-  margin-top: -10px;
+  margin-top: 0;
   background-color: #F2F2F2;
 }
 
@@ -1426,11 +1424,10 @@ margin: 40px 7px;
   width: 40px ;
   padding: 0;
   border: 0;
-
-  padding: 14px 10px;
   cursor: pointer;
   outline: 0;
   text-align: center;
+  margin-top: 10px;
 }
 
 .modal-circle {
@@ -1463,9 +1460,8 @@ margin: 40px 7px;
   border-radius: 50%;
   background-color: #83b3d3;
   padding: 0;
-
   display: block;
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 .tooltip-icon {
@@ -1545,5 +1541,5 @@ margin: 40px 7px;
 }
 
 .children-label {
-  margin-left: 5px;
+  margin-left: 15px;
 }
