@@ -132,7 +132,7 @@
   <label for="newsletter-email"></label>
   <input class="field"  placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
   <button class="button-newsletter-button" type="submit">
-    <span class="button">Подписаться</span>
+    <span class="button" type="submit">Подписаться</span>
   </button>
 </form>
 </section>
@@ -168,7 +168,7 @@
     <div class="modal-container">
       <div class="modal modal-auth">
         <button class="modal-close-button">
-          <span class="visually-hidden">Закрыть</span>
+          <span class="visually-hidden close-button">Закрыть</span>
         </button>
         <section class="modal-content">
       <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
@@ -182,11 +182,18 @@
       <input id="departure-date" class="dates-input" type="text" name="departure" value="1 сентября 2023">
       <p class="departure-comment">На эти даты есть свободные номера. Пока есть</p>
       <div class="modal-quantity">
-      <label class="modal-label" for="adults">Взрослые:</label>
+      <label class="modal-label" for="adults">
+        <span class="visually-hidden">Выберите число въезжающих.</span>
+        Взрослые:
+      </label>
       <div class="quantity-adult">
-        <button class="bt-minus"></button>
-        <input id="adults" value="2" size="2" class="quantity" data-max-count="20" />
-        <button class="bt-plus"></button>
+        <button class="bt-minus" type="button">
+          <span class="visually-hidden">Уменьшить число.</span>
+        </button>
+        <input id="adults" value="2" size="2" class="quantity" data-max-count="20">
+        <button class="bt-plus" type="button">
+          <span class="visually-hidden">Увеличить число.</span>
+        </button>
     </div>
       <label class="modal-label children-label" for="children">Дети:</label>
 
@@ -203,9 +210,13 @@
         будут с вами, возраст<br> которых от 6 до 18 лет. Дети<br> до 6 лет размещаются<br> бесплатно.</span>
       </span>
       <div class="quantity-children">
-        <button class="bt-minus"></button>
+        <button class="bt-minus" type="button">
+          <span class="visually-hidden">Уменьшить число</span>
+        </button>
       <input id="children" value="2" size="2" class="quantity" data-max-count="20" />
-      <button class="bt-plus"></button>
+      <button class="bt-plus">
+        <span class="visually-hidden">Увеличить число</span>
+      </button>
       </div>
     </div>
       <div class="button-found">
