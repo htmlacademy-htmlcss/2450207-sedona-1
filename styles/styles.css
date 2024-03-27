@@ -1323,6 +1323,7 @@ margin: 40px 7px;
 .modal-close-button:focus {
   background-color: #E6E6E6;
   border: solid 3px #83B3D3;
+  border-radius: 50%;
 }
 
 .modal-close-button:active {
