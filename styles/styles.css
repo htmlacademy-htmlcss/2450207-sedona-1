@@ -1316,6 +1316,23 @@ margin: 40px 7px;
   cursor: pointer;
 }
 
+.modal-close-button:hover {
+  background-color: #E6E6E6;
+}
+
+.modal-close-button:focus {
+  background-color: #E6E6E6;
+  border: solid 3px #83B3D3;
+}
+
+.modal-close-button:active {
+  background-color: #E6E6E6;
+}
+
+.close-button:active {
+  opacity: 30%;
+}
+
 .modal-title {
   font-size: 30px;
   line-height: 36px;
@@ -1399,6 +1416,18 @@ margin: 40px 7px;
   height: 20px;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.bt-minus .bt-plus:hover {
+color:#000000;
+}
+
+.bt-minus:focus {
+background-image: url("../images/bt-minus-active.svg");
+}
+
+.bt-plus:focus {
+  background-image: url("../images/bt-plus-active.svg");
 }
 
 .quantity-adult {
