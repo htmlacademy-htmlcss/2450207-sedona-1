@@ -11,7 +11,7 @@
       <nav class="main-nav">
       <p class="logo">
         <a href="index.html">
-        <img src="images/logo.png" width="138" height="64" alt="Логотип"></img>
+        <img src="images/logo.png" width="138" height="64" alt="Логотип">
         </a>
       </p>
       <ul class="site-navigation">
@@ -26,22 +26,22 @@
             </li>
             </ul>
             <ul class="navigation-list-navigation-user">
-              <li class="navigation-item">
+              <li class="navigation-item lens">
                 <a class="navigation-link" href="#">
                   <span class="visually-hidden">Поиск</span>
-                  <img src="images/search.svg" width="20" height="20" alt="Поиск"></img>
+                  <img src="images/search.svg" width="20" height="20" alt="Поиск">
                 </a>
               </li>
               <li class="navigation-item">
                 <a class="navigation-link" href="#">
                   <span class="visually-hidden">Like</span>
-                  <img src="images/like.svg" width="20" height="20" alt="Like"></img>
+                  <img src="images/like.svg" width="20" height="20" alt="Like">
                 </a>
                 <div class="circle">
                   <p class="circle-content">12</p>
                 </div>
               </li>
-              <li>
+              <li class="here">
                 <a class="want-here" href="#">Хочу сюда!</a>
               </li>
           </ul>
@@ -58,7 +58,7 @@
 <div class="divider"></div>
 </div>
 
-  <h3 class="attractive">Седона - небольшой городок в Аризоне, заслуживающий большего!</h3>
+  <h3 class="attractive">Седона-небольшой городок в Аризоне, заслуживающий большего!</h3>
   <p class="reasons">Рассмотрим причины, по которым Седона круче, чем Град-Каньон!</p>
 </section>
       </div>
@@ -90,7 +90,7 @@
 <div class="bridge-photo">
   <img src="images/canyon.jpg" width="800" height="385" alt="фото моста дьявола в Седоне">
  <section class="bridge">
-  <h3 class="real-town">Там есть мост дьявола</h3>
+  <h3 class="real-town">Там есть<br> мост дьявола</h3>
 
   <p class="town">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
 </section>
@@ -101,28 +101,28 @@
   <ul class="advantage-list">
     <li class="advantages-list road adv">
         <p class="icon-home"></p>
-      <h4 class="advantages ">Жилье</h4>
-      <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+      <h4 class="advantages">Жильё</h4>
+      <p class="recommend">Рекомендуем пожить<br> в настоящем мотеле,<br> всё как в кино!</p>
     </li>
 
     <li class="advantages-list adv">
       <p class="icon-food"></p>
 
       <h4 class="advantages">Еда</h4>
-      <p>Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+      <p class="recommend">Всегда заказывайте<br> топовый фирменный бургер,<br> вы не разочаруетесь!</p>
     </li>
     <li class="advantages-list road adv">
       <p class="icon-gift">
 
       <h4 class="advantages">Сувениры</h4>
-      <p>Не только китайского, но и настоящего местного производства!</p>
+      <p class="recommend">Не только китайского, <br>но и настоящего местного производства!</p>
     </li>
   </ul>
 </section>
 <section class="offers">
 <h3 class="invitation">Заинтересовались?</h3>
-<p class="dates">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-<a class="search" href="catalog.html">Поиск гостиицы в Седоне</a>
+<p class="dates">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+<a class="search" href="catalog.html">Поиск гостиницы в Седоне</a>
 </section>
 <section class="subscribe">
 <h3 class="sub">Подпишитесь на рассылку</h3>
@@ -131,36 +131,100 @@
   <label for="newsletter-email"></label>
   <input class="field"  placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
   <button class="button-newsletter-button" type="submit">
-    <span class="button">Подписаться</span>
+    <span class="button" type="submit">Подписаться</span>
   </button>
 </form>
 </section>
-      </div>
+
     </main>
     <footer class="page-footer">
       <div class="page-footer-container">
       <ul class="social-list">
         <li class="social-item vk">
           <a  href="https://vk.com/htmlacademy">
-
+            <span class="visually-hidden"> аккаунт Vkontakte</span>
           </a>
         </li>
         <li class="social-item telegram">
           <a href="https://t.me/htmlacademy">
-
+            <span class="visually-hidden">аккаунт в Telegram</span>
           </a>
         </li>
         <li class="social-item youtube">
           <a href="https://www.youtube.com/user/htmlacademyru">
-
+            <span class="visually-hidden">аккаунт на YouTube</span>
           </a>
         </li>
         </ul>
+        <p class="phone">
         <a class="contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+        </p>
         <p class="logo-html">
           <img src="images/logo_htmlacademy.png" width="115" height="33" alt="Логотип html academy">
         </p>
       </div>
     </footer>
+    <div class="modal-container">
+      <div class="modal modal-auth">
+        <button class="modal-close-button" type="button">
+          <span class="visually-hidden close-button">Закрыть</span>
+        </button>
+        <section class="modal-content">
+      <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
+      <form class="auth-form" action="https://echo.htmlacademy.ru/" method="post">
+        <div class="field-group">
+      <label class="modal-label" for="arrival-date">Дата Заезда:</label>
+      <input class="dates-input" type="text" name="arrival-date" value="27 апреля 2020"  placeholder="Укажите дату" id="arrival-date" autocomplete="off" required>
+      <p class="arrival-comment">  Мы не можем отправить вас в прошлое. </p>
+        </div>
+      <label class="modal-label" for="departure-date">Дата Выезда:</label>
+      <input id="departure-date" class="dates-input" type="text" name="departure" value="1 сентября 2023">
+      <p class="departure-comment">На эти даты есть свободные номера. Пока есть</p>
+      <div class="modal-quantity">
+      <label class="modal-label" for="adults">
+        <span class="visually-hidden">Выберите число въезжающих.</span>
+        Взрослые:
+      </label>
+      <div class="quantity-adult">
+        <button class="bt-minus" type="button">
+          <span class="visually-hidden">Уменьшить число.</span>
+        </button>
+        <input id="adults" value="2" size="2" class="quantity" data-max-count="20">
+        <button class="bt-plus" type="button">
+          <span class="visually-hidden">Увеличить число.</span>
+        </button>
+    </div>
+      <label class="modal-label children-label" for="children">Дети:</label>
+
+      <span class="tooltip">
+        <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label-date">
+          <svg class="tooltip-icon" width="1" height="9" viewBox="0 0 1 9" fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#a)">
+             <path d="M0 9h1V3H0v6ZM1 0H0v1h1V0Z" />
+            </g>
+          </svg>
+        </button>
+        <span class="tooltip-text" role="tooltip" id="tooltip-label-date">Укажите количество детей,<br> которые
+        будут с вами, возраст<br> которых от 6 до 18 лет. Дети<br> до 6 лет размещаются<br> бесплатно.</span>
+      </span>
+      <div class="quantity-children">
+        <button class="bt-minus" type="button">
+          <span class="visually-hidden">Уменьшить число</span>
+        </button>
+      <input id="children" value="2" size="2" class="quantity" data-max-count="20" />
+      <button class="bt-plus">
+        <span class="visually-hidden">Увеличить число</span>
+      </button>
+      </div>
+    </div>
+      <div class="button-found">
+        <button class="modal-found" type="submit">Найти</button>
+      </div>
+      </form>
+        </section>
+    </div>
+    </div>
+
   </body>
 </html>
