@@ -96,6 +96,10 @@ body {
   .page-container {
     width: 1200px;
     margin: 0 auto;
+  }
+
+  .page-wrapper{
+    min-width: 1200px;
     box-shadow:  0 0 15px 0 rgba(0, 0, 0, 0.2);
   }
 
@@ -1595,8 +1599,7 @@ margin: 40px 7px;
 }
 
 .bt-minus:hover, .bt-plus:hover {
-color:#000000;
-background-color: #E6E6E6;
+opacity: 0.3;
 }
 
 .bt-minus:focus {
