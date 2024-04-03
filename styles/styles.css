@@ -101,6 +101,8 @@ body {
   .page-wrapper{
     min-width: 1200px;
     box-shadow:  0 0 15px 0 rgba(0, 0, 0, 0.2);
+    width: 1200px;
+    margin: 0 auto;
   }
 
   .sedona {
@@ -179,7 +181,7 @@ body {
     background-image: url("../images/background.jpg");
     background-size: 100% auto, cover;
     background-repeat: no-repeat;
-    width: 1200px;
+    margin: 0 auto;
     background-position: center bottom, left top;
     padding: 80px;
   }
@@ -1244,6 +1246,10 @@ width: 1200px;
 height: 57px;
 top: 80px;
 border: none;
+background-position: center bottom;
+background-repeat: no-repeat;
+background-size: 100% auto;
+left: -80px;
 }
 
 .divider,
