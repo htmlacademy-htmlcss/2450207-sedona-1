@@ -73,7 +73,7 @@ body {
     margin: 0;
     list-style-type: none;
     padding-left: 30px;
-    margin-left: 168px;
+    margin-left: 208px;
   }
 
   .navigation-list-navigation-user{
@@ -93,10 +93,6 @@ body {
     margin-left: 20px;
   }
 
-  .page-container {
-    width: 1200px;
-    margin: 0 auto;
-  }
 
   .page-wrapper{
     min-width: 1200px;
@@ -108,7 +104,7 @@ body {
   .sedona {
     display: block;
     margin: 0 auto;
-    top: 50px;
+    top: 14px;
   }
 
   .information-foto {
@@ -183,7 +179,7 @@ body {
     background-repeat: no-repeat;
     margin: 0 auto;
     background-position: center bottom, left top;
-    padding: 80px;
+    padding: 38px;
   }
 
   .real-town {
@@ -838,7 +834,8 @@ font-weight: 700;
 .social-list {
   display: flex;
   width: 142px;
-  margin-left: 50px;
+  margin-left: 35px;
+  margin-top: 10px;
 }
 
 .contacts-phone {
@@ -920,7 +917,8 @@ font-weight: 700;
   margin: 0 auto;
   width: 684px;
   height: 52px;
-  padding-bottom: 100px;
+  padding-bottom: 105px;
+  padding-top: 5px;
  }
 
  .useful-information {
@@ -1204,6 +1202,7 @@ list-style-type: none;
 padding: 10px;
 background-repeat: no-repeat;
 margin-top: 32px;
+margin-left: 6px;
 }
 
 .social {
@@ -1244,12 +1243,12 @@ margin-top: 7px;
 background-image: url("../images/divider.svg");
 width: 1200px;
 height: 57px;
-top: 80px;
+top: 37px;
 border: none;
 background-position: center bottom;
 background-repeat: no-repeat;
 background-size: 100% auto;
-left: -80px;
+left: -39px;
 }
 
 .divider,
