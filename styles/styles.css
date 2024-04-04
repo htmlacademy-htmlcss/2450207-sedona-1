@@ -345,7 +345,6 @@ body {
 
 .subscribe-catalog {
   width: 1200px;
-  margin: 0 auto;
 font-size: 22px;
 line-height: 26px;
 color: #333333;
@@ -353,7 +352,8 @@ font-weight: 400;
 text-align: center;
 padding-top: 96px;
 padding-bottom: 104px;
-margin-left: 29px;
+margin-left: 80px;
+margin-bottom: -109px;
 }
 
 .sub {
@@ -630,7 +630,8 @@ background-color: #615048;
   line-height: 36px;
   color: #000000;
   width: 1060px;
-  margin: 0 auto;
+  margin-left: 122px;
+  margin-top: 10px;
 }
 
 .hotels-subscribe {
@@ -935,7 +936,7 @@ font-weight: 700;
   background-image: url("../images/filter.png");
   background-repeat: no-repeat;
   width: 1200px;
-    margin: -2px 32px;
+    margin: -2px 85px;
     height: 412px;
     padding: 5px 50px 0 70px;
     background-size: cover;
@@ -1119,7 +1120,7 @@ input[type=text] {
   display: flex;
   list-style-type: none;
   margin-top: 95px;
-  margin-left: -16px;
+  margin-left: -6px;
 }
 
 .pagination-link {
@@ -1243,7 +1244,7 @@ margin-top: 7px;
 background-image: url("../images/divider.svg");
 width: 1200px;
 height: 57px;
-top: 37px;
+top: 38px;
 border: none;
 background-position: center bottom;
 background-repeat: no-repeat;
@@ -1735,7 +1736,7 @@ background-image: url("../images/bt-minus-active.svg");
 
 .dates-input:focus {
   background-color: #E6E6E6;
-  border: solid 3px #83B3D3;
+  outline: 3px solid #83B3D3;
 }
 
 .dates-input:active {
