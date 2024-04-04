@@ -631,6 +631,7 @@ background-color: #615048;
   color: #000000;
   width: 1060px;
   margin: 0 auto;
+  padding-top: 55px;
 }
 
 .hotels-subscribe {
@@ -788,19 +789,6 @@ background-color: #68A2CA;
   text-transform: uppercase;
 }
 
-.pagination-link {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #FFFFFF;
-  background-color: #82B3D3;
-  text-decoration: none;
-  margin: 5px;
-  list-style-type: none;
-  padding: 20px;
-  border-radius: 4px;
-}
-
 .pagination-current {
 color:#000000;
 background-color: #F2F2F2;
@@ -934,7 +922,7 @@ font-weight: 700;
 .hotels {
   background-image: url("../images/filter.png");
   background-repeat: no-repeat;
-    padding: 5px 50px 20px 70px;
+    padding: 5px 50px 28px 70px;
     background-size: cover;
 }
 
@@ -1004,11 +992,7 @@ margin-top: -20px;
  .found {
   display: flex;
   justify-content: space-between;
-  margin: 0 30px 10px 30px;
   width: 1200px;
-  padding-left: 10px;
-  margin-top: 55px;
-  margin-left: 20px;
  }
 
  .button-button-light {
@@ -1047,8 +1031,8 @@ margin-top: -20px;
   display: grid;
   grid-template-columns: repeat(2, 140px);
   gap: 0 22px;
-  padding: 16px 16px 0 16px;
-  margin-top: 10px;
+  padding: 32px 16px 0 21px;
+  margin-top: 0;
  }
 
  .rating {
@@ -1099,8 +1083,8 @@ margin-top: -20px;
  .button-light {
   display: flex;
   justify-content: flex-end;
-  margin-top: -10px;
-  margin-right: 137px;
+  margin-top: -4px;
+  margin-right: 134px;
  }
 
 
@@ -1122,9 +1106,14 @@ input[type=text] {
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
-  width: 60px;
-  height: 60px;
   padding: 17px 24px;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+  text-decoration: none;
+  margin: 5px;
+  list-style-type: none;
+  border-radius: 4px;
+  display: block;
 }
 
 .pagination-link:hover,
