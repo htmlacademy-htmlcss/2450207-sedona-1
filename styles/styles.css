@@ -350,10 +350,7 @@ line-height: 26px;
 color: #333333;
 font-weight: 400;
 text-align: center;
-padding-top: 96px;
-padding-bottom: 104px;
-margin-left: 80px;
-margin-bottom: -109px;
+padding-top: 83px;
 }
 
 .sub {
@@ -795,9 +792,12 @@ background-color: #F2F2F2;
 font-weight: 700;
   font-size: 20px;
   line-height: 36px;
-  width: 60px;
-  height: 60px;
+  width: 12px;
+  height: 38px;
   padding: 17px 24px;
+  display: block;
+  margin-top: 7px;
+  border-radius: 10px;
 }
 
 
@@ -807,8 +807,10 @@ font-weight: 700;
   font-size: 22px;
   line-height: 26px;
   text-decoration: none;
-  width: 60px;
+  width: 30px;
   padding: 20px;
+  display: block;
+  margin-top: 10px;
 }
 
 .page-footer-container {
