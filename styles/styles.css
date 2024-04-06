@@ -542,6 +542,7 @@ background-color: #615048;
 }
 
 .button {
+  font-family: "PT Sans";
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
@@ -638,8 +639,7 @@ background-color: #615048;
   color: #000000;
   text-transform: uppercase;
   margin-top: 40px;
-
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .select-control {
@@ -796,8 +796,8 @@ font-weight: 700;
   height: 38px;
   padding: 13px 24px;
   display: block;
-  margin-top: 7px;
-  border-radius: 10px;
+  margin-top: 4px;
+  border-radius: 4px;
 }
 
 
@@ -826,6 +826,10 @@ font-weight: 700;
   width: 142px;
   margin-left: 35px;
   margin-top: 10px;
+}
+
+.social-catalog {
+  margin-top: 6px;
 }
 
 .contacts-phone {
@@ -912,13 +916,16 @@ font-weight: 700;
  }
 
  .useful-information {
-  margin-bottom: 52px;
+  margin-bottom: 50px;
  }
 
 .field {
   width: 452px;
   padding-left: 20px;
   border-radius: 4px 0 0 4px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .hotels {
