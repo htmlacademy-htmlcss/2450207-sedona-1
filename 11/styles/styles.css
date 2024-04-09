@@ -549,6 +549,8 @@ background-color: #615048;
   color: #FFFFFF;
   background-color: #82B3D3;
   text-transform: uppercase;
+  border: none;
+  padding-top: 9px;
 }
 
 .button:hover,
