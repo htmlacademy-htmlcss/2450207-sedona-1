@@ -1,12 +1,12 @@
 @font-face {
-    font-family: "PT Sans";
+    font-family: "PT Sans", serif;
     font-weight: 400;
     src: url("../fonts/ptsans-400.woff2");
     font-display: swap;
 }
 
 @font-face {
-    font-family: "PT Sans";
+    font-family: "PT Sans", serif;
     font-style: normal;
     font-weight: 700;
     src: url("../fonts/ptsans-700.woff2");
@@ -228,10 +228,10 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
-  width: 620px;
   text-align: center;
   margin: auto;
   padding-top: 69px;
+  width: 651px;
   }
 
   .invitation {
@@ -563,6 +563,7 @@ background-color: #615048;
 }
 
 .apply {
+  font-family: PT Sans;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -586,6 +587,7 @@ background-color: #615048;
 
 
 .reset {
+  font-family: PT Sans;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -645,6 +647,7 @@ background-color: #615048;
 }
 
 .select-control {
+  font-family: PT Sans;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
@@ -694,7 +697,7 @@ background-color: #615048;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  color: #000000;
+  color: #333333;
   margin-top: 15px;
   margin-bottom: 0;
 }
@@ -844,6 +847,7 @@ font-weight: 700;
   line-height: 40px;
   text-align: center;
   margin-top: 40px;
+  display: block;
 }
 
 .contacts-phone:hover,
@@ -928,6 +932,7 @@ font-weight: 700;
  }
 
 .field {
+  font-family: PT Sans;
   width: 452px;
   padding-left: 20px;
   border-radius: 4px 0 0 4px;
@@ -977,6 +982,7 @@ margin-top: -20px;
 }
 
 .form-price {
+  font-family: PT Sans;
   width: 143px;
   height: 48px;
   border-radius: 4px;
@@ -1021,7 +1027,7 @@ margin-top: -20px;
   border: 2px solid #E5E5E5;
   height: 14px;
   margin-right: 10px;
-  border-radius: 2px;
+  border-radius: 4px;
  }
 
  .button-button-light:hover,
@@ -1056,7 +1062,12 @@ margin-top: -20px;
   outline: 1px solid #E6E6E6;
  }
 
+ .food {
+  background-color: #FFFFFF;
+ }
+
  .rating {
+  color: #333333;
   display: flex;
   font-weight: 400;
   font-size: 16px;
@@ -1105,7 +1116,7 @@ margin-top: -20px;
   display: flex;
   justify-content: flex-end;
   margin-top: -4px;
-  margin-right: 134px;
+  width: 1200px;
  }
 
 
@@ -1387,6 +1398,7 @@ margin: 40px 7px;
 }
 
 .hotel-cards {
+  color:#333333;
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
@@ -1418,7 +1430,7 @@ margin: 40px 7px;
 }
 
 .control-input:focus {
-  border: solid 3px   #83B3D3;
+  outline: solid 3px   #83B3D3;
 }
 
 .control-label {
@@ -1546,6 +1558,7 @@ margin: 40px 7px;
 }
 
 .modal-found {
+  font-family: PT Sans;
   width: 577px;
   font-weight: 700;
   font-size: 20px;
@@ -1639,6 +1652,7 @@ background-image: url("../images/bt-minus-active.svg");
 }
 
 .quantity {
+  font-family: PT Sans;
   font-size: 18px;
   line-height: 20px;
   font-weight: 700;
@@ -1655,6 +1669,7 @@ background-image: url("../images/bt-minus-active.svg");
   cursor: pointer;
   outline: 0;
   text-align: center;
+  background-color: gold;
 }
 
 .modal-circle {
@@ -1689,14 +1704,7 @@ background-image: url("../images/bt-minus-active.svg");
   padding: 0;
   display: block;
   margin-top: 8px;
-}
-
-.tooltip-icon {
-  width: 1px;
-  height: 9px;
-  color: #FFFFFF;
-  display: block;
-  margin-left: 12px;
+  background-image: url("../images/tooltip.svg");
 }
 
 .tooltip-toggle:hover .tooltip-icon {
@@ -1727,6 +1735,7 @@ background-image: url("../images/bt-minus-active.svg");
 }
 
 .dates-input {
+  font-family: PT Sans;
   width: 440px;
   padding: 12px 20px;
   padding-right: 50px;
