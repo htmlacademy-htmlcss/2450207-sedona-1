@@ -30,13 +30,11 @@
                 <li class="navigation-item lens">
                   <a class="navigation-link" href="#">
                     <span class="visually-hidden">Поиск</span>
-                    <img src="images/search.svg" width="20" height="20" alt="Поиск">
                   </a>
                 </li>
-                <li class="navigation-item">
+                <li class="navigation-item like">
                   <a class="navigation-link" href="#">
                     <span class="visually-hidden">Like</span>
-                    <img src="images/like.svg" width="20" height="20" alt="Like">
                   </a>
                   <div class="circle">
                     <p class="circle-content">12</p>
@@ -53,7 +51,9 @@
 
           <h1 class="hotel-header">Гостиницы Седоны</h1>
           <div class="hotels-icons">
-          <p class="icon"></p>
+          <p class="icon">
+            <a class="icon" href="index.html"></a>
+          </p>
 
           <p class="crumbs"> Гостиницы</p>
         </div>
@@ -143,14 +143,17 @@
         </div>
         <div class="button-submit">
           <button class="apply" type="submit">Применить</button>
-          <button class="reset" type="submit">Сбросить</button>
+          <button class="reset" type="reset">Сбросить</button>
         </div>
         </div>
       </form>
         </section>
         <section class="hotels-found">
           <div class="found">
+            <div class="searching-results">
           <h2 class="found-title">Найдено гостиниц: 38</h2>
+            </div>
+            <div class="sorting-control">
           <select class="select-control" aria-label="Сортировка">
             <option value="cheap">Сначала дешeвые</option>
           <option value="popular">Сначала популярные</option>
@@ -161,14 +164,14 @@
           <span class="visually-hidden">Показать гостиницы</span>
           <div class="view-icon"></div>
         </a>
-        <a class="button-button-light" href="#">
+        <a class="button-button-light view-icon-one" href="#">
           <span class="visually-hidden">Показать одну</span>
-          <div class="view-icon-one"></div>
         </a>
         <a class="button-button-light" href="#">
           <span class="visually-hidden">Показать список</span>
           <div class="view-icon-list"></div>
         </a>
+        </div>
         </div>
           </div>
          <ul class="hotels-list">
@@ -208,7 +211,7 @@
             <div class="stars-three"></div>
             <p class="rating">Рейтинг: 6,9</p>
           </li>
-          <li class="hotels-card">
+          <li class="hotels-card last">
             <a class="hotels-card-link" href="#">
               <img class="hotels-card-image" src="images/greentree.jpg" width="300" height="212" alt="Гостиница greentree inn фото каньона и звездного неба">
               <h3 class="last">GreenTree Inn</h3>
